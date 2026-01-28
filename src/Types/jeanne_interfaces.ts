@@ -5,7 +5,7 @@ export interface Citation {
 
 }
 
-export interface Evenement {
+export interface FriseCards {
     id: number;
     date: string;
     title: string; 
@@ -27,5 +27,5 @@ export interface Jeanne {
     image: string;
     specificite: Specificite[];
     citation: Citation[];
-    frise: Evenement[];
+    frise: FriseCards[];
 }
