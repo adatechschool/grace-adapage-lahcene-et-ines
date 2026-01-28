@@ -2,6 +2,8 @@ export interface Citation {
     id: number;
     text: string;
     context: string;
+    image : string
+ 
 
 }
 
