@@ -12,7 +12,8 @@ export const jeanne: Jeanne = {
         nationalite: "Française",
         metier: "Guerrière",
         signeAstro: "Capricorne",
-        qualite: "Courageuse"
+      qualite: "Courageuse",
+        image : ""
     }],
 
     citation: [{

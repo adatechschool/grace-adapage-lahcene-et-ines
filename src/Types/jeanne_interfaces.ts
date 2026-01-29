@@ -20,6 +20,7 @@ export interface Specificite {
     metier: string;
     signeAstro: string;
     qualite: string;
+    image : string
   
 }
 

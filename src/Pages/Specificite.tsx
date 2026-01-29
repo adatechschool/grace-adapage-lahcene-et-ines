@@ -1,19 +1,13 @@
 import { jeanne } from "../data/Jeanne";
-import { SpecificiteCard } from "../Components/SpecificiteCards";
+import { SpecificiteCards } from "../Components/SpecificiteCards";
 
 export default function Specificite() {
   return (
-    <div>
-      <h2>Spécificités de Jeanne d'Arc</h2>
+    <div className="p-10 m-10">
+      <h2 className=" text-5xl font-bold  text-center mb-20">Spécificités de Jeanne d'Arc</h2>
 
-      <div className="card-container">
-        {jeanne.specificite.map((spec) => (
-          <SpecificiteCard
-            key={spec.id}
-            specificite={spec}
-          />
-        ))}
-      </div>
+    
+      <SpecificiteCards speci={jeanne.specificite} />
     </div>
   );
 }
