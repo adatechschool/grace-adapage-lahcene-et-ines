@@ -1,7 +1,7 @@
 import type { Specificite } from "../Types/jeanne_interfaces";
 
 interface Props {
-  specificite: Specificite;
+  specificitesC: Specificite[];
 }
 
 export function SpecificiteCard({ specificite }: Props) {
