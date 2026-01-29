@@ -13,10 +13,8 @@ function App() {
   return (
     <BrowserRouter>
       <nav>
-        <NavLink to="/" >Accueil</NavLink>
-        <NavLink to="/Citation" >Citation</NavLink>
-        <NavLink to="/Frise" >Frise</NavLink>
-        <NavLink to="/Specificite" >Specificite</NavLink>
+        <NavLink to="/">Accueil</NavLink>
+      
       </nav>
 
       <Routes>
