@@ -2,13 +2,13 @@ export function NavBar() {
     return (
         <header className="fixed w-full z-20 top-0 start-0">
             <nav className="bg-neutral-primary">
-                <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-2">
+                <div className="flex flex-wrap justify-start items-center mx-auto max-w-7xl p-2">
                     <div className="flex items-center space-x-6 rtl:space-x-reverse">
-                        {/* Logo Jeanne d'Arc */}
-                        <a href="/" className="flex items-center">
+                        {/* Logo Jeanne d'Arc - Cliquable vers l'accueil */}
+                        <a href="/" className="flex items-center cursor-pointer hover:opacity-80 transition-opacity">
                             <img 
                                 src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Contemporaine_afb_jeanne_d_arc.png" 
-                                alt="Logo Jeanne d'Arc" 
+                                alt="Logo Jeanne d'Arc - Retour à l'accueil" 
                                 className="h-20 w-auto"
                             />
                         </a>
