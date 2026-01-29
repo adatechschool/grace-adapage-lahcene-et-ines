@@ -14,10 +14,10 @@ export function JeanneIntro ({ name, image, description }: Props) {
       <img
         src={image}
         alt={name}
-    
+
           />
-          
-           <p>
+      
+          <p>
       {description}
     </p>
     </header>
