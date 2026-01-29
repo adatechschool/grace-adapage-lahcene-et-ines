@@ -5,6 +5,18 @@ description : string
 }
 
 
+<<<<<<< HEAD
+      <img
+        src={image}
+        alt={name}
+
+          />
+      
+          <p>
+      {description}
+    </p>
+    </header>
+=======
 export function JeanneIntro ({ name, image, description }: Props) {
 return (
 <header>
@@ -19,5 +31,6 @@ backgroundImage: `url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgiZ
       <img src={image} alt={name} className="w-150 border-2" /></div>
 
 </header>
+>>>>>>> dab05175d452445736ae3e8eadf0bd84deae6c90
   );
 }
