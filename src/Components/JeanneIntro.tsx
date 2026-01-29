@@ -16,7 +16,7 @@ backgroundImage: `url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgiZ
 <h1>{name}</h1>
 <div className="flex gap-4 mb-50 mt-100">
 <p className="flex-1 mb-30 text-balance" >{description}</p>
-      <img src={image} alt={name} className="w-150" /></div>
+      <img src={image} alt={name} className="w-150 border-2" /></div>
 
 </header>
   );
