@@ -3,12 +3,13 @@ import { JeanneIntro } from "../Components/JeanneIntro";
 import { NavBar } from "../Components/NavBar";
 
 
-export default function Accueil() {
+export default function Acceuil() {
   return (
 
 
     <div className="accueil">
-<NavBar/>
+      
+<NavBar />
 
       <JeanneIntro
         name={jeanne.name}
@@ -17,11 +18,7 @@ export default function Accueil() {
 
       />
 
-     
 
-      
-        
-      
     </div>
   );
 }
