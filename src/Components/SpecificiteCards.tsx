@@ -19,7 +19,17 @@ export function SpecificiteCards({ speci }: Props) {
   ];
 
   return (
+
+ 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10">
+       <div
+  className="fixed inset-0 bg-cover bg-center opacity-40 -z-10"
+  style={{
+    backgroundImage:
+      "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgiZ4HqvKzwO-_G7UU8cEz8FPYEj_kKYDqpA&s)",
+  }}
+/>
+
       {cardsData.map((item, index) => (
         
         <div key={index} className={`${card} relative flex flex-col items-center text-center`}>

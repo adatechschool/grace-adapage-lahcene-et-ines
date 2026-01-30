@@ -1,5 +1,6 @@
 import { jeanne } from "../data/Jeanne";
 import { SpecificiteCards } from "../Components/SpecificiteCards";
+import { NavBar } from "../Components/NavBar";
 
 export default function Specificite() {
   return (
@@ -8,6 +9,8 @@ export default function Specificite() {
 
     
       <SpecificiteCards speci={jeanne.specificite} />
+      <NavBar/>
     </div>
+  
   );
 }

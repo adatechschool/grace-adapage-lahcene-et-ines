@@ -1,5 +1,6 @@
 import { jeanne } from "../data/Jeanne";
 import { FriseCards } from "../Components/FriseCards";
+import { NavBar } from "../Components/NavBar";
 
 export function Frise() {
   return (
@@ -13,6 +14,8 @@ export function Frise() {
           <FriseCards key={fr.id} friseCards={fr} />
         ))}
       </div>
+
+      <NavBar/>
     </div>
   )
 }

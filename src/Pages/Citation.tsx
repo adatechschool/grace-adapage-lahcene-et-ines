@@ -1,5 +1,6 @@
 import { jeanne } from "../data/Jeanne"; 
 import { CitationCard } from "../Components/CitationCards";
+import { NavBar } from "../Components/NavBar";
 
 export default function Citation() {
     return (
@@ -17,9 +18,11 @@ export default function Citation() {
                         
                    
                     />
+        
                   
                 ))}
             </div>
+            <NavBar/>
         </div>
 
      
