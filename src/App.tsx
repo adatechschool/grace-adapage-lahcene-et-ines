@@ -1,28 +1,28 @@
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import './App.css';
 
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
-import Citation from './Pages/Citation';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { NavBar } from './Components/NavBar';
+
 import Accueil from './Pages/Acceuil';
+import Citation from './Pages/Citation';
 import { Frise } from './Pages/Frise';
 import Specificite from './Pages/Specificite';
-
 
 function App() {
   return (
     <BrowserRouter>
-      <nav>
-        <NavLink to="/">Accueil</NavLink>
-      
-      </nav>
 
+      {/* NAVBAR */}
+      <NavBar />
+
+      {/* PAGES */}
       <Routes>
-        <Route path="/" element={<Accueil/>} />
+        <Route path="/" element={<Accueil />} />
         <Route path="/Citation" element={<Citation />} />
-        <Route path="/Frise" element={<Frise/>} />
+        <Route path="/Frise" element={<Frise />} />
         <Route path="/Specificite" element={<Specificite />} />
       </Routes>
+
     </BrowserRouter>
   );
 }

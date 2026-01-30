@@ -7,6 +7,16 @@ interface Props {
 export function FriseCards({ friseCards }: Props) {
   return (
     <div className="flex gap-3 pb-1">
+
+       <div
+  className="fixed inset-0 bg-cover bg-center opacity-40 -z-10"
+  style={{
+    backgroundImage:
+      "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgiZ4HqvKzwO-_G7UU8cEz8FPYEj_kKYDqpA&s)",
+  }}
+/>
+
+      
       
       {/* Point + Ligne à gauche */}
       <div className="flex flex-col items-center pt-9">

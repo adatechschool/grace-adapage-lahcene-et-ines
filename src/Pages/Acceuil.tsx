@@ -1,6 +1,6 @@
 import { jeanne } from "../data/Jeanne";
 import { JeanneIntro } from "../Components/JeanneIntro";
-import { NavBar } from "../Components/NavBar";
+
 
 
 export default function Acceuil() {
@@ -9,7 +9,7 @@ export default function Acceuil() {
 
     <div className="accueil">
       
-<NavBar />
+
 
       <JeanneIntro
         name={jeanne.name}
